@@ -8,3 +8,8 @@ console.log("numOfSandwiches: ", numOfSandwiches);
 var name = "Andy";
 var string = "Hello " + name + ", how are you?";
 console.log("string: ", string);
+
+// Challenge exercise 3
+var DNA = "GCAT";
+var RNA = DNA.replace('T', 'U');
+console.log("RNA: " + RNA);
