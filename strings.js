@@ -29,3 +29,9 @@ var yarn = "the better string";
 var domString = "<h4>" + yarn + "</h4>";
 
 var myDiv = document.getElementById('yarny').innerHTML = domString;
+
+// Challenge exercise 5
+var str = "IBMWLOVEbmcatsbmw";
+var cleaned = str.replace(/[bmwBMW]/g, "");
+// console.log("cleaned: ", cleaned);
+document.getElementById("result").innerHTML = cleaned;
